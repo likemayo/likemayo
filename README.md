@@ -50,7 +50,7 @@ Welcome to my GitHub repository! Here, you'll find a collection of my projects a
 
 ### 2. Personal Website  
 **Repository:** [likemayo.github.io](https://likemayo.github.io)  
-- **Description:** My personal website showcases my portfolio, projects, and blog posts on AI and ML topics.  
+- **Description:** My personal website showcases my portfolio, projects, figma design on AI and ML topics.  
 - **Key Features:**  
   - Built using **HTML, CSS, and JavaScript**.  
   - Hosted on GitHub Pages.  
