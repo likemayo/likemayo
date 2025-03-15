@@ -67,6 +67,5 @@ Welcome to my GitHub repository! Here, you'll find a collection of my projects a
 
 ## Contact Me  
 If you'd like to collaborate, discuss my projects, or just say hello, feel free to reach out!  
-- **Email:** yw6739@nyu.edu  
-- **LinkedIn:** [Your LinkedIn Profile] (if applicable)  
+- **Email:** yw6739@nyu.edu    
 - **Personal Website:** [https://likemayo.github.io](https://likemayo.github.io)  
