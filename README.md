@@ -1,5 +1,3 @@
-## Hi there 👋
-
 # Yanlin Wu's GitHub Portfolio  
 Welcome to my GitHub repository! Here, you'll find a collection of my projects and contributions in **Machine Learning (ML)** and **AI-driven product development**. Below is an overview of the key repositories and their significance.
 
