@@ -1,115 +1,165 @@
-# Yanlin Wu's GitHub Portfolio
-Welcome to my GitHub repository! Here, you'll find a collection of my projects and contributions in **Machine Learning (ML)** and **AI-driven product development**. Below is an overview of the key [...] 
+# **Yanlin Wu — GitHub Portfolio**
+
+Welcome! I'm **Yanlin Wu**, a Computer Science & Economics student at NYU Abu Dhabi specializing in **AI-driven systems**, **full-stack development,** and **data-powered product design**. My work spans production-ready engineering, machine learning, developer tooling, and adaptive learning systems.
+
+Below is a curated selection of my most significant projects, organized for quick review by recruiters and engineering leads.
 
 ---
 
-## Machine Learning Projects
+# 🌟 Featured Projects
 
-### 1. End-to-End ML Model Development
-**Repository:** [ML_Model](https://github.com/likemayo/ML_Model)  
-- **Description:** This repository showcases my ability to build **end-to-end ML models** from scratch. It includes data preprocessing, model training, and evaluation on diverse datasets.  
-- **Key Features:**
-  - Implementation of various ML algorithms (e.g., regression, classification).  
-  - Use of popular frameworks like **TensorFlow** and **PyTorch**.  
-  - Demonstrates proficiency in **data analysis** and **model optimization**.  
+## 1. E-Commerce Platform with Partner Catalog Ingest & RMA System
 
----
+Repository: E-Commerce Platform (Full-Stack, Dockerized)
 
-### 2. Jane Street Market Prediction (Kaggle Competition)
-**Repository:** [Kaggle-JaneStreetCommpetition](https://github.com/likemayo/Kaggle-JaneStreetCommpetition)  
-- **Description:** A project focused on predicting real-time market trends using **ensemble learning** and **custom neural networks**.  
-- **Key Features:**  
-  - Built **LightGBM, XGBoost, CatBoost, and a custom neural network** using PyTorch Lightning.  
-  - Conducted **feature engineering** (e.g., lag features) for time-series data.  
-  - Implemented **custom metrics** (e.g., R2 score) for model evaluation.  
-  - Leveraged **Adam optimizer** with a learning rate scheduler and **dropout layers** for regularization.  
-
----
-
-### 3. Emotional Analysis of Text (Sentiment Detection)
-**Repository:** [EmotionalAnalysisText](https://github.com/likemayo/AI_Project/blob/main/EmotionalAnalysisText/EmotionDetection.py)  
-- **Description:** A sentiment analysis project using **logistic regression** to classify text as positive or negative.  
-- **Key Features:**  
-  - Trained on the **Sentiment140 dataset** (1.6M tweets).  
-  - Preprocessed and cleaned text data, including tokenization and feature extraction.  
-  - Achieved high accuracy in real-time sentiment classification.  
-
----
-
-## AI Product Development
-
-### 1. ChatSign: Sign Language Translation App
-**Repository:** [youtube_scraping](https://github.com/likemayo/youtube_scraping)  
-- **Description:** A project aimed at developing a sign language translation and recognition app to facilitate communication between deaf and non-deaf individuals.  
-- **Key Features:**  
-  - Developed a Python script to **scrape YouTube videos and captions** for data collection.  
-  - Collected and preprocessed **2000+ data points** for model training.  
-  - Collaborated with a multidisciplinary team to integrate sign language recognition algorithms.  
-
----
-
-### 2. Personal Website
-**Repository:** [likemayo.github.io](https://likemayo.github.io)  
-- **Description:** My personal website showcases my portfolio, projects, figma design on AI and ML topics.  
-- **Key Features:**  
-  - Built using **HTML, CSS, and JavaScript**.  
-  - Hosted on GitHub Pages.  
-
----
-
-## Technical Skills
-- **Programming Languages:** Python, C++, Java  
-- **Machine Learning Frameworks:** TensorFlow, PyTorch, Scikit-learn, PyTorch Lightning  
-- **Tools & Libraries:** Pandas, NumPy, Matplotlib, Seaborn, LightGBM, XGBoost, CatBoost  
-- **Other Skills:** Data Analysis, Feature Engineering, Ensemble Learning, Neural Networks, Web Scraping  
-
----
-
-## Contact Me
-If you'd like to collaborate, discuss my projects, or just say hello, feel free to reach out!  
-- **Email:** yw6739@nyu.edu    
-- **Personal Website:** [https://likemayo.github.io](https://likemayo.github.io)  
-
----
-
-## Featured Project Overviews
-Below are short, linked overviews for two repositories you asked to highlight — I added these to the bottom of this README so the existing portfolio content remains unchanged.
-
-### Calories — Track Calories Gap
-Overview
-This project helps users track the difference between calories consumed and calories burned — the "calories gap" — to support weight and nutrition goals. It combines a Python backend for data processing and logic with HTML for a lightweight web UI, making it easy to log meals, record activity, and see your daily and historical calorie gaps.
-
-Key features
-- Log food intake and activities
-- Calculate daily calorie gap and running trends
-- Simple, responsive HTML-based UI
-- Lightweight Python data processing and storage
-
-Tech stack
-- Python — backend calculations and persistence
-- HTML — frontend views and forms
-
-Repository
-- https://github.com/likemayo/calories
-
----
-
-### Capstone Project
-Overview
-This capstone project is a full-stack application built primarily in TypeScript with a Python component. The repository contains the core TypeScript application (frontend or Node.js service), supporting Python modules, and configuration for development and deployment. The goal is to demonstrate an end-to-end solution — from UI and API to data handling and automation — suitable for portfolio or production-ready demonstration.
+A full, production-style **E-Commerce system** built with Flask + SQLite + Docker, featuring partner data ingestion, flash-sale infrastructure, and a complete **10-stage RMA (Returns Merchandise Authorization)** workflow.
 
 Highlights
-- TypeScript-driven frontend or server (majority of the codebase)
-- Python modules for data processing or backend services
-- Shell and Dockerfile scripts for automation and containerization
-- CSS and JavaScript for UI polish where applicable
+- Partner catalog ingestion via CSV/JSON adapters, async job queue, audit logging
+- Flash sales engine: real-time inventory tracking, rate limiting, circuit breaker
+- End-to-end RMA system: validation → inspection → disposition → refund/repair/replacement
+- Mobile-friendly customer dashboard + multi-queue admin portal
+- Fully containerized: `docker-compose up` to run app + worker
+- Comprehensive test suite (unit, integration, stress tests)
 
-Tech stack
-- TypeScript — primary application code
-- Python — supporting services, scripts, or APIs
-- Docker — containerization
-
-Repository
-- https://github.com/Sophie-l-l/capstone
+Tech Stack: Flask, SQLite, Docker, Async Worker, Prometheus-style metrics, pytest
+Best for: SWE, Platform, Backend, Product Infra roles
 
 ---
+
+## 2. EduCode — Adaptive Learning Platform for Programming
+
+Repository: educode-adaptive-platform (Capstone)
+
+A multi-service **adaptive coding education platform** using **Bayesian Knowledge Tracing (BKT)** to model student mastery and generate personalized recommendations.
+
+Highlights
+- Classroom-ready platform with Next.js frontend, Express/Prisma backend, and FastAPI AI service
+- Integrated Judge0 for code execution and automated scoring
+- Tracks Knowledge Components (KCs) and updates skill mastery via BKT
+- Instructor analytics dashboard for student progress
+- Face/Emotion data pipeline scaffolded for future adaptive feedback
+- Full Docker dev/prod environment with nginx reverse proxy
+
+Tech Stack: Next.js, Node.js/Express, Python FastAPI, PostgreSQL, Docker, Judge0, Prisma
+Best for: EdTech, AI/ML Engineering, Full-Stack SWE, Product roles
+
+---
+
+## 3. Mobile-Friendly Calorie Tracking & Weight Loss App
+
+Repository: calories — https://github.com/likemayo/calories
+
+A lightweight, mobile-optimized web app to support calorie deficit goals with practical portion-based estimations.
+
+Highlights
+- Personalized daily calorie targets using Mifflin-St Jeor equation
+- Fast meal logging with multi-item entries and intuitive portion units
+- Food calorie estimator with approximate matching + built-in food DB
+- Access from any phone on same WiFi or via ngrok/cloud deployment
+- Clean UI with bottom navigation for one-handed use
+
+Tech Stack: Python, Flask
+Best for: Mobile Web, Consumer App, Health Tech, UX-oriented projects
+
+---
+
+# 🤖 Machine Learning & Data Projects
+
+## 1. Jane Street Market Prediction (Kaggle — Silver Medal Top 4%)
+
+Repository: Kaggle-JaneStreetCompetition — https://github.com/likemayo/Kaggle-JaneStreetCommpetition
+
+Real-time financial prediction using advanced ML models.
+
+Highlights
+- Analyzed 47M+ financial samples across 1,699 trading days
+- Feature engineered lagged, smoothed, and aggregated signals
+- Built LightGBM, XGBoost, CatBoost + PyTorch Lightning neural networks
+- Reduced prediction error significantly (0.0083) with tuned ensemble
+
+Tech Stack: Pandas, NumPy, LightGBM, XGBoost, CatBoost, PyTorch Lightning
+
+---
+
+## 2. End-to-End ML Model Development
+
+Repository: ML_Model — https://github.com/likemayo/ML_Model
+
+A showcase of ML workflows: preprocessing → model training → evaluation.
+
+Highlights
+- Implemented classical supervised learning models
+- Strong emphasis on reproducibility and experimentation
+- Covers regression, classification, and model diagnostics
+
+---
+
+## 3. Text Sentiment Analysis (Logistic Regression)
+
+Repository: EmotionalAnalysisText — https://github.com/likemayo/AI_Project/blob/main/EmotionalAnalysisText/EmotionDetection.py
+
+Highlights
+- Trained on Sentiment140 dataset (1.6M tweets)
+- Built complete NLP pipeline: tokenization, cleaning, feature extraction
+- Deployed logistic regression sentiment classifier
+
+---
+
+# ✋ AI for Accessibility & Social Impact
+
+## ChatSign — Sign Language Translation & Recognition
+
+Repository: youtube_scraping — https://github.com/likemayo/youtube_scraping
+
+A sign language data collection and preprocessing project for improved accessibility tools.
+
+Highlights
+- Scraped and processed 2,000+ labeled clips from YouTube
+- Managed multimodal preprocessing for ASL/LIBRAS datasets
+- Integrated into broader sign-language translation research
+- Conducted user research with 40+ deaf/hard-of-hearing participants
+
+---
+
+# 🌐 Personal Website
+
+Repository: likemayo.github.io — https://likemayo.github.io
+A simple static site hosting my portfolio and project showcases. Built with HTML/CSS/JS, deployed on GitHub Pages.
+
+---
+
+# 🛠️ Technical Skills
+
+Programming
+Python • JavaScript/TypeScript • C/C++ • SQL • Java
+
+Frameworks & Tools
+Flask • FastAPI • Express • Next.js • React • Tailwind • Prisma
+PyTorch • TensorFlow • Scikit-learn • Pandas • NumPy
+Docker • SQLite • PostgreSQL
+Judge0 • Prometheus-style metrics
+
+Core Strengths
+- Full-stack engineering
+- ML modeling & analytics
+- Data pipeline design
+- API design & backend infrastructure
+- Product thinking (user flows, validation, iterative design)
+
+---
+
+# 📫 Contact Me
+
+Email: yw6739@nyu.edu
+Portfolio Website: https://likemayo.github.io
+LinkedIn / Resume available upon request
+
+---
+
+# If you'd like, I can also:
+
+- Create a beautifully formatted version with repo logos, badges, shields
+- Add GIF demos or screenshots sections
+- Make a shorter “Recruiter Edition”
+- Add project architecture diagrams for your top repos
