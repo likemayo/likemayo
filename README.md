@@ -73,7 +73,7 @@ Repository: Kaggle-JaneStreetCompetition — https://github.com/likemayo/Kaggle-
 Real-time financial prediction using advanced ML models.
 
 Highlights
-- Analyzed 47M+ financial samples across 1,699 trading days
+- Analyzed **47M+** financial samples across 1,699 trading days
 - Feature engineered lagged, smoothed, and aggregated signals
 - Built LightGBM, XGBoost, CatBoost + PyTorch Lightning neural networks
 - Reduced prediction error significantly (0.0083) with tuned ensemble
