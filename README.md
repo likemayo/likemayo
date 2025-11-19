@@ -156,10 +156,3 @@ Portfolio Website: https://likemayo.github.io
 LinkedIn / Resume available upon request
 
 ---
-
-# If you'd like, I can also:
-
-- Create a beautifully formatted version with repo logos, badges, shields
-- Add GIF demos or screenshots sections
-- Make a shorter “Recruiter Edition”
-- Add project architecture diagrams for your top repos
