@@ -1,21 +1,21 @@
-# Yanlin Wu's GitHub Portfolio  
-Welcome to my GitHub repository! Here, you'll find a collection of my projects and contributions in **Machine Learning (ML)** and **AI-driven product development**. Below is an overview of the key repositories and their significance.
+# Yanlin Wu's GitHub Portfolio
+Welcome to my GitHub repository! Here, you'll find a collection of my projects and contributions in **Machine Learning (ML)** and **AI-driven product development**. Below is an overview of the key [...] 
 
 ---
 
-## Machine Learning Projects  
+## Machine Learning Projects
 
-### 1. End-to-End ML Model Development  
+### 1. End-to-End ML Model Development
 **Repository:** [ML_Model](https://github.com/likemayo/ML_Model)  
 - **Description:** This repository showcases my ability to build **end-to-end ML models** from scratch. It includes data preprocessing, model training, and evaluation on diverse datasets.  
-- **Key Features:**  
+- **Key Features:**
   - Implementation of various ML algorithms (e.g., regression, classification).  
   - Use of popular frameworks like **TensorFlow** and **PyTorch**.  
   - Demonstrates proficiency in **data analysis** and **model optimization**.  
 
 ---
 
-### 2. Jane Street Market Prediction (Kaggle Competition)  
+### 2. Jane Street Market Prediction (Kaggle Competition)
 **Repository:** [Kaggle-JaneStreetCommpetition](https://github.com/likemayo/Kaggle-JaneStreetCommpetition)  
 - **Description:** A project focused on predicting real-time market trends using **ensemble learning** and **custom neural networks**.  
 - **Key Features:**  
@@ -26,7 +26,7 @@ Welcome to my GitHub repository! Here, you'll find a collection of my projects a
 
 ---
 
-### 3. Emotional Analysis of Text (Sentiment Detection)  
+### 3. Emotional Analysis of Text (Sentiment Detection)
 **Repository:** [EmotionalAnalysisText](https://github.com/likemayo/AI_Project/blob/main/EmotionalAnalysisText/EmotionDetection.py)  
 - **Description:** A sentiment analysis project using **logistic regression** to classify text as positive or negative.  
 - **Key Features:**  
@@ -36,9 +36,9 @@ Welcome to my GitHub repository! Here, you'll find a collection of my projects a
 
 ---
 
-## AI Product Development  
+## AI Product Development
 
-### 1. ChatSign: Sign Language Translation App  
+### 1. ChatSign: Sign Language Translation App
 **Repository:** [youtube_scraping](https://github.com/likemayo/youtube_scraping)  
 - **Description:** A project aimed at developing a sign language translation and recognition app to facilitate communication between deaf and non-deaf individuals.  
 - **Key Features:**  
@@ -48,7 +48,7 @@ Welcome to my GitHub repository! Here, you'll find a collection of my projects a
 
 ---
 
-### 2. Personal Website  
+### 2. Personal Website
 **Repository:** [likemayo.github.io](https://likemayo.github.io)  
 - **Description:** My personal website showcases my portfolio, projects, figma design on AI and ML topics.  
 - **Key Features:**  
@@ -57,7 +57,7 @@ Welcome to my GitHub repository! Here, you'll find a collection of my projects a
 
 ---
 
-## Technical Skills  
+## Technical Skills
 - **Programming Languages:** Python, C++, Java  
 - **Machine Learning Frameworks:** TensorFlow, PyTorch, Scikit-learn, PyTorch Lightning  
 - **Tools & Libraries:** Pandas, NumPy, Matplotlib, Seaborn, LightGBM, XGBoost, CatBoost  
@@ -65,7 +65,51 @@ Welcome to my GitHub repository! Here, you'll find a collection of my projects a
 
 ---
 
-## Contact Me  
+## Contact Me
 If you'd like to collaborate, discuss my projects, or just say hello, feel free to reach out!  
 - **Email:** yw6739@nyu.edu    
 - **Personal Website:** [https://likemayo.github.io](https://likemayo.github.io)  
+
+---
+
+## Featured Project Overviews
+Below are short, linked overviews for two repositories you asked to highlight — I added these to the bottom of this README so the existing portfolio content remains unchanged.
+
+### Calories — Track Calories Gap
+Overview
+This project helps users track the difference between calories consumed and calories burned — the "calories gap" — to support weight and nutrition goals. It combines a Python backend for data processing and logic with HTML for a lightweight web UI, making it easy to log meals, record activity, and see your daily and historical calorie gaps.
+
+Key features
+- Log food intake and activities
+- Calculate daily calorie gap and running trends
+- Simple, responsive HTML-based UI
+- Lightweight Python data processing and storage
+
+Tech stack
+- Python — backend calculations and persistence
+- HTML — frontend views and forms
+
+Repository
+- https://github.com/likemayo/calories
+
+---
+
+### Capstone Project
+Overview
+This capstone project is a full-stack application built primarily in TypeScript with a Python component. The repository contains the core TypeScript application (frontend or Node.js service), supporting Python modules, and configuration for development and deployment. The goal is to demonstrate an end-to-end solution — from UI and API to data handling and automation — suitable for portfolio or production-ready demonstration.
+
+Highlights
+- TypeScript-driven frontend or server (majority of the codebase)
+- Python modules for data processing or backend services
+- Shell and Dockerfile scripts for automation and containerization
+- CSS and JavaScript for UI polish where applicable
+
+Tech stack
+- TypeScript — primary application code
+- Python — supporting services, scripts, or APIs
+- Docker — containerization
+
+Repository
+- https://github.com/Sophie-l-l/capstone
+
+---
