@@ -12,7 +12,13 @@ Below is a curated selection of my most significant projects, organized for quic
 
 Repository: E-Commerce Platform (Full-Stack, Dockerized)
 
-A full, production-style **E-Commerce system** built with Flask + SQLite + Docker, featuring partner data ingestion, flash-sale infrastructure, and a complete **10-stage RMA (Returns Merchandise Authorization)** workflow.
+This project introduces several production-oriented improvements that strengthen the platform’s backend reliability, operational visibility, and user experience. The additions focus on designing secure APIs, implementing event-driven workflows, and improving system observability across the stack.
+
+Key upgrades include **server-side data filtering**, **operational alerting**, and a **durable notification pipeline** integrated directly into the platform’s RMA workflow. These additions required building parameterized SQL queries, designing configurable backend logic, and ensuring efficient database access patterns through index-friendly queries and environment-driven configuration.
+
+On the system-level side, the checkpoint adds comprehensive **observability hooks**, including structured JSON logging with correlation IDs, Prometheus metrics for both HTTP and business events, and detailed health-check endpoints. Together, these tools improve traceability, debugging, and performance analysis in a containerized environment, making the system easier to operate and scale.
+
+Overall, this project transforms the platform from a feature-complete prototype into a more **production-ready backend**, emphasizing clean API design, operational robustness, and software engineering best practices.
 
 Highlights
 - Partner catalog ingestion via CSV/JSON adapters, async job queue, audit logging
