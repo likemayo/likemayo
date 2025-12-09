@@ -1,4 +1,4 @@
-# **Yanlin Wu — GitHub Portfolio**
+# **Vanessa Wu — GitHub Portfolio**
 
 Welcome! I'm **Yanlin Wu**, a Computer Science & Economics student at NYU Abu Dhabi specializing in **AI-driven systems**, **full-stack development,** and **data-powered product design**. My work spans production-ready engineering, machine learning, developer tooling, and adaptive learning systems.
 
