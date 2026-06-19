@@ -35,7 +35,7 @@ Best for: SWE, Platform, Backend, Product Infra roles
 
 ## 2. EduCode — Adaptive Learning Platform for Programming
 
-Repository: educode-adaptive-platform (Capstone)
+Repository: educode-adaptive-platform (Capstone) - https://github.com/Sophie-l-l/capstone
 
 A multi-service **adaptive coding education platform** using **Bayesian Knowledge Tracing (BKT)** to model student mastery and generate personalized recommendations.
 
