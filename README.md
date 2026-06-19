@@ -1,6 +1,6 @@
 # **Yanlin Wu — GitHub Portfolio**
 
-Welcome! I'm **Yanlin Wu**, a Computer Science & Economics student at NYU Abu Dhabi specializing in **AI-driven systems**, **full-stack development,** and **data-powered product design**. My work spans production-grade backend systems, adaptive learning platforms, and advanced ML research.
+Welcome! I'm **Yanlin Wu**, a Computer Science & Economics student at NYU Abu Dhabi specializing in **AI-driven systems**, **full-stack development,** and **data-powered product design**. My work s[...]
 
 Below is a curated selection of my most significant projects, organized for quick review by recruiters and engineering leads.
 
@@ -10,15 +10,15 @@ Below is a curated selection of my most significant projects, organized for quic
 
 ## 1. E-Commerce Platform with Partner Catalog Ingest & RMA System
 
-Repository: E-Commerce Platform (Full-Stack, Dockerized)
+Repository: [E-Commerce Platform (Full-Stack, Dockerized)](https://github.com/likemayo/Checkpoint4)
 
-This project introduces several production-oriented improvements that strengthen the platform's backend reliability, operational visibility, and user experience. The additions focus on designing secure, scalable infrastructure with comprehensive observability.
+This project introduces several production-oriented improvements that strengthen the platform's backend reliability, operational visibility, and user experience. The additions focus on designing s[...]
 
-Key upgrades include **server-side data filtering**, **operational alerting**, and a **durable notification pipeline** integrated directly into the platform's RMA workflow. These additions required careful consideration of reliability patterns and asynchronous processing.
+Key upgrades include **server-side data filtering**, **operational alerting**, and a **durable notification pipeline** integrated directly into the platform's RMA workflow. These additions require[...]
 
-On the system-level side, the checkpoint adds comprehensive **observability hooks**, including structured JSON logging with correlation IDs, Prometheus metrics for both HTTP and business events, and distributed tracing integration.
+On the system-level side, the checkpoint adds comprehensive **observability hooks**, including structured JSON logging with correlation IDs, Prometheus metrics for both HTTP and business events, a[...]
 
-Overall, this project transforms the platform from a feature-complete prototype into a more **production-ready backend**, emphasizing clean API design, operational robustness, and software engineering best practices.
+Overall, this project transforms the platform from a feature-complete prototype into a more **production-ready backend**, emphasizing clean API design, operational robustness, and software enginee[...]
 
 Highlights
 - Partner catalog ingestion via CSV/JSON adapters, async job queue, audit logging
