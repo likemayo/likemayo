@@ -1,6 +1,6 @@
-# **Vanessa Wu — GitHub Portfolio**
+# **Yanlin Wu — GitHub Portfolio**
 
-Welcome! I'm **Yanlin Wu**, a Computer Science & Economics student at NYU Abu Dhabi specializing in **AI-driven systems**, **full-stack development,** and **data-powered product design**. My work spans production-ready engineering, machine learning, developer tooling, and adaptive learning systems.
+Welcome! I'm **Yanlin Wu**, a Computer Science & Economics student at NYU Abu Dhabi specializing in **AI-driven systems**, **full-stack development,** and **data-powered product design**. My work spans production-grade backend systems, adaptive learning platforms, and advanced ML research.
 
 Below is a curated selection of my most significant projects, organized for quick review by recruiters and engineering leads.
 
@@ -12,11 +12,11 @@ Below is a curated selection of my most significant projects, organized for quic
 
 Repository: E-Commerce Platform (Full-Stack, Dockerized)
 
-This project introduces several production-oriented improvements that strengthen the platform’s backend reliability, operational visibility, and user experience. The additions focus on designing secure APIs, implementing event-driven workflows, and improving system observability across the stack.
+This project introduces several production-oriented improvements that strengthen the platform's backend reliability, operational visibility, and user experience. The additions focus on designing secure, scalable infrastructure with comprehensive observability.
 
-Key upgrades include **server-side data filtering**, **operational alerting**, and a **durable notification pipeline** integrated directly into the platform’s RMA workflow. These additions required building parameterized SQL queries, designing configurable backend logic, and ensuring efficient database access patterns through index-friendly queries and environment-driven configuration.
+Key upgrades include **server-side data filtering**, **operational alerting**, and a **durable notification pipeline** integrated directly into the platform's RMA workflow. These additions required careful consideration of reliability patterns and asynchronous processing.
 
-On the system-level side, the checkpoint adds comprehensive **observability hooks**, including structured JSON logging with correlation IDs, Prometheus metrics for both HTTP and business events, and detailed health-check endpoints. Together, these tools improve traceability, debugging, and performance analysis in a containerized environment, making the system easier to operate and scale.
+On the system-level side, the checkpoint adds comprehensive **observability hooks**, including structured JSON logging with correlation IDs, Prometheus metrics for both HTTP and business events, and distributed tracing integration.
 
 Overall, this project transforms the platform from a feature-complete prototype into a more **production-ready backend**, emphasizing clean API design, operational robustness, and software engineering best practices.
 
@@ -52,24 +52,6 @@ Best for: EdTech, AI/ML Engineering, Full-Stack SWE, Product roles
 
 ---
 
-## 3. Mobile-Friendly Calorie Tracking & Weight Loss App
-
-Repository: calories — https://github.com/likemayo/calories
-
-A lightweight, mobile-optimized web app to support calorie deficit goals with practical portion-based estimations.
-
-Highlights
-- Personalized daily calorie targets using Mifflin-St Jeor equation
-- Fast meal logging with multi-item entries and intuitive portion units
-- Food calorie estimator with approximate matching + built-in food DB
-- Access from any phone on same WiFi or via ngrok/cloud deployment
-- Clean UI with bottom navigation for one-handed use
-
-Tech Stack: Python, Flask
-Best for: Mobile Web, Consumer App, Health Tech, UX-oriented projects
-
----
-
 # 🤖 Machine Learning & Data Projects
 
 ## 1. Jane Street Market Prediction (Kaggle — Silver Medal Top 4%)
@@ -83,32 +65,9 @@ Highlights
 - Feature engineered lagged, smoothed, and aggregated signals
 - Built LightGBM, XGBoost, CatBoost + PyTorch Lightning neural networks
 - Reduced prediction error significantly (0.0083) with tuned ensemble
+- Top 4% globally on Kaggle leaderboard
 
 Tech Stack: Pandas, NumPy, LightGBM, XGBoost, CatBoost, PyTorch Lightning
-
----
-
-## 2. End-to-End ML Model Development
-
-Repository: ML_Model — https://github.com/likemayo/ML_Model
-
-A showcase of ML workflows: preprocessing → model training → evaluation.
-
-Highlights
-- Implemented classical supervised learning models
-- Strong emphasis on reproducibility and experimentation
-- Covers regression, classification, and model diagnostics
-
----
-
-## 3. Text Sentiment Analysis (Logistic Regression)
-
-Repository: EmotionalAnalysisText — https://github.com/likemayo/AI_Project/blob/main/EmotionalAnalysisText/EmotionDetection.py
-
-Highlights
-- Trained on Sentiment140 dataset (1.6M tweets)
-- Built complete NLP pipeline: tokenization, cleaning, feature extraction
-- Deployed logistic regression sentiment classifier
 
 ---
 
@@ -125,13 +84,6 @@ Highlights
 - Managed multimodal preprocessing for ASL/LIBRAS datasets
 - Integrated into broader sign-language translation research
 - Conducted user research with 40+ deaf/hard-of-hearing participants
-
----
-
-# 🌐 Personal Website
-
-Repository: likemayo.github.io — https://likemayo.github.io
-A simple static site hosting my portfolio and project showcases. Built with HTML/CSS/JS, deployed on GitHub Pages.
 
 ---
 
