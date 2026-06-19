@@ -39,18 +39,19 @@ Best for: SWE, Platform, Backend, Product Infra roles
 
 Repository: educode-adaptive-platform (Capstone) - https://github.com/Sophie-l-l/capstone
 
-A multi-service **adaptive coding education platform** using **Bayesian Knowledge Tracing (BKT)** to model student mastery and generate personalized recommendations.
+A full-stack **adaptive coding education platform** that uses **Bayesian Knowledge Tracing (BKT)** to track student mastery and recommend personalized next steps. The system evaluates submissions across both **technical correctness** and **cognitive understanding**, combining **rule-based error detection** with the **Google Gemini API** for more complex cases.
 
 Highlights
-- Classroom-ready platform with Next.js frontend, Express/Prisma backend, and FastAPI AI service
-- Integrated Judge0 for code execution and automated scoring
-- Tracks Knowledge Components (KCs) and updates skill mastery via BKT
-- Instructor analytics dashboard for student progress
-- Face/Emotion data pipeline scaffolded for future adaptive feedback
-- Full Docker dev/prod environment with nginx reverse proxy
+- Next.js frontend, Express/Prisma backend, and FastAPI AI service
+- Judge0 integration for secure code execution and automated scoring
+- Multi-layer feedback for technical errors, cognitive gaps, and learning-level classification
+- Hybrid error analysis using **rule-based logic + Gemini API**
+- BKT-based mastery tracking across multiple Knowledge Components
+- Instructor dashboard for student progress and analytics
+- Dockerized dev/prod setup with nginx reverse proxy
 
 Tech Stack: Next.js, Node.js/Express, Python FastAPI, PostgreSQL, Docker, Judge0, Prisma
-Best for: EdTech, AI/ML Engineering, Full-Stack SWE, Product roles
+Best for: EdTech, Full-Stack SWE, AI/ML Engineering, Product roles
 
 ---
 
