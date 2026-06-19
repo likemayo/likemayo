@@ -1,8 +1,8 @@
 # **Yanlin Wu — GitHub Portfolio**
 
-Welcome! I'm **Yanlin Wu**, a Computer Science & Economics student at NYU Abu Dhabi specializing in **AI-driven systems**, **full-stack development,** and **data-powered product design**. My work spans full-stack product engineering, ML-driven features, and production-ready infrastructure for web services.
+Welcome! I'm **Yanlin Wu**, a Computer Science & Economics student at NYU Abu Dhabi specializing in **AI-driven systems**, **full-stack development**, and **data-powered product design**. My work spans production-style software engineering, machine learning, educational technology, and accessibility-focused projects.
 
-Below is a curated selection of my most significant projects, organized for quick review by recruiters and engineering leads.
+This profile highlights selected projects that show both technical depth and practical product thinking — from backend infrastructure and adaptive learning systems to ML competitions and social impact tools.
 
 ---
 
@@ -12,13 +12,13 @@ Below is a curated selection of my most significant projects, organized for quic
 
 Repository: [E-Commerce Platform (Full-Stack, Dockerized)](https://github.com/likemayo/Checkpoint4)
 
-Summary: A production-oriented, Dockerized Flask e-commerce backend combining a durable partner catalog ingestion pipeline (CSV/JSON adapters), an async background worker for ingest and business jobs, a flash-sales engine to avoid oversells under high concurrency, and a complete RMA (Returns Merchandise Authorization) workflow with admin queues, disposition, and notifications. The project includes structured JSON logs with correlation IDs, Prometheus-style metrics, health checks, and a comprehensive test suite. See the Checkpoint4 repository for code, deployment instructions, Docker quickstart, and design notes.
+Summary: A production-oriented, Dockerized Flask e-commerce backend combining a durable partner catalog ingestion pipeline (CSV/JSON adapters), an async background worker for ingest and business logic, and a full return merchandise authorization (RMA) workflow.
 
-This project introduces several production-oriented improvements that strengthen the platform's backend reliability, operational visibility, and user experience. The additions focus on designing server-side filtering, operational alerting, and a durable notification pipeline integrated into the RMA workflow.
+This project introduces several production-oriented improvements that strengthen the platform's backend reliability, operational visibility, and user experience. The additions focus on designing scalable workflows for catalog ingestion, flash sales, and returns management.
 
-Key upgrades include **server-side data filtering**, **operational alerting**, and a **durable notification pipeline** integrated directly into the platform's RMA workflow. These additions require thoughtful data validation and asynchronous processing to remain responsive under load.
+Key upgrades include **server-side data filtering**, **operational alerting**, and a **durable notification pipeline** integrated directly into the platform's RMA workflow. These additions required careful coordination between API design, asynchronous processing, and persistence.
 
-On the system-level side, the checkpoint adds comprehensive **observability hooks**, including structured JSON logging with correlation IDs, Prometheus metrics for both HTTP and business events, and health endpoints for containerized deployments.
+On the system-level side, the checkpoint adds comprehensive **observability hooks**, including structured JSON logging with correlation IDs, Prometheus metrics for both HTTP and business events, and operational dashboards for monitoring system health.
 
 Overall, this project transforms the platform from a feature-complete prototype into a more **production-ready backend**, emphasizing clean API design, operational robustness, and software engineering best practices.
 
