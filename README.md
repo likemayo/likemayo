@@ -1,6 +1,6 @@
 # **Yanlin Wu — GitHub Portfolio**
 
-Welcome! I'm **Yanlin Wu**, a Computer Science & Economics student at NYU Abu Dhabi specializing in **AI-driven systems**, **full-stack development,** and **data-powered product design**. My work s[...]
+Welcome! I'm **Yanlin Wu**, a Computer Science & Economics student at NYU Abu Dhabi specializing in **AI-driven systems**, **full-stack development,** and **data-powered product design**. My work spans full-stack product engineering, ML-driven features, and production-ready infrastructure for web services.
 
 Below is a curated selection of my most significant projects, organized for quick review by recruiters and engineering leads.
 
@@ -12,13 +12,15 @@ Below is a curated selection of my most significant projects, organized for quic
 
 Repository: [E-Commerce Platform (Full-Stack, Dockerized)](https://github.com/likemayo/Checkpoint4)
 
-This project introduces several production-oriented improvements that strengthen the platform's backend reliability, operational visibility, and user experience. The additions focus on designing s[...]
+Summary: A production-oriented, Dockerized Flask e-commerce backend combining a durable partner catalog ingestion pipeline (CSV/JSON adapters), an async background worker for ingest and business jobs, a flash-sales engine to avoid oversells under high concurrency, and a complete RMA (Returns Merchandise Authorization) workflow with admin queues, disposition, and notifications. The project includes structured JSON logs with correlation IDs, Prometheus-style metrics, health checks, and a comprehensive test suite. See the Checkpoint4 repository for code, deployment instructions, Docker quickstart, and design notes.
 
-Key upgrades include **server-side data filtering**, **operational alerting**, and a **durable notification pipeline** integrated directly into the platform's RMA workflow. These additions require[...]
+This project introduces several production-oriented improvements that strengthen the platform's backend reliability, operational visibility, and user experience. The additions focus on designing server-side filtering, operational alerting, and a durable notification pipeline integrated into the RMA workflow.
 
-On the system-level side, the checkpoint adds comprehensive **observability hooks**, including structured JSON logging with correlation IDs, Prometheus metrics for both HTTP and business events, a[...]
+Key upgrades include **server-side data filtering**, **operational alerting**, and a **durable notification pipeline** integrated directly into the platform's RMA workflow. These additions require thoughtful data validation and asynchronous processing to remain responsive under load.
 
-Overall, this project transforms the platform from a feature-complete prototype into a more **production-ready backend**, emphasizing clean API design, operational robustness, and software enginee[...]
+On the system-level side, the checkpoint adds comprehensive **observability hooks**, including structured JSON logging with correlation IDs, Prometheus metrics for both HTTP and business events, and health endpoints for containerized deployments.
+
+Overall, this project transforms the platform from a feature-complete prototype into a more **production-ready backend**, emphasizing clean API design, operational robustness, and software engineering best practices.
 
 Highlights
 - Partner catalog ingestion via CSV/JSON adapters, async job queue, audit logging
